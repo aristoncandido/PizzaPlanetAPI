@@ -1,0 +1,82 @@
+{
+    "ingredientes": {
+      "massas": [
+        {
+          "id": 1,
+          "tipo": "Tradicional"
+        },
+        {
+          "id": 2,
+          "tipo": "Integral"
+        },
+        {
+          "id": 3,
+          "tipo": "Massa Fina"
+        },
+        {
+          "id": 4,
+          "tipo": "Massa Grossa"
+        }
+      ],
+      "molhos": [
+        {
+          "id": 1,
+          "tipo": "Tomate"
+        },
+        {
+          "id": 2,
+          "tipo": "Branco"
+        },
+        {
+          "id": 3,
+          "tipo": "Barbecue"
+        },
+        {
+          "id": 4,
+          "tipo": "Pesto"
+        }
+      ],
+      "cobertura": [
+        {
+          "id": 1,
+          "tipo": "Pepperoni"
+        },
+        {
+          "id": 2,
+          "tipo": "Mussarela"
+        },
+        {
+          "id": 3,
+          "tipo": "Azeitona"
+        },
+        {
+          "id": 4,
+          "tipo": "Tomate"
+        },
+        {
+          "id": 5,
+          "tipo": "Cebola"
+        },
+        {
+          "id": 6,
+          "tipo": "Pimentão"
+        }
+      ]
+    },
+    "status": [
+      {
+        "id": 1,
+        "tipo": "Solicitado"
+      },
+      {
+        "id": 2,
+        "tipo": "Em produção"
+      },
+      {
+        "id": 3,
+        "tipo": "Finalizado"
+      }
+    ],
+    "pizzas": [ ]
+  }
+  

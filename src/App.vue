@@ -1,26 +1,48 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Navbar :logo="logo_src" :alt="app_name" />
+  <router-view />
+
+  
+  <Footer />
 </template>
 
+<style></style>
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    Navbar,
+    Footer,
+  },
+  data() {
+    return {
+      logo_src: "/imgs/pizza-planet2.jpg",
+      app_name: "Pizza Planet",
+    };
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+<style >
+body{
+  overflow-x:hidden ;
+  font-family: 'Pizza';
 }
+
+@font-face {
+  font-family: 'Pizza';
+  src: url('/public/fonts/pizza.ttf');
+}
+
+.main-conteiner{
+  width: 100%;
+  
+  margin-bottom: 5%;
+ 
+}
+  
 </style>
